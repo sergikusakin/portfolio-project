@@ -1,5 +1,5 @@
 <template>
-  <div>hi there!</div>
+  <div>Hi, my name is Sergei, I'm web developer front-end</div>
 </template>
 
 <script lang="ts">

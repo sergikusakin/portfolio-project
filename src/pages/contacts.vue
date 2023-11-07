@@ -1,5 +1,7 @@
 <template>
-  <div>hi there!</div>
+  <div>Contacts:</div>
+  <div>e-mail: email@gmail.com</div>
+  <div>tel. +34 000 00 00 00</div>
 </template>
 
 <script lang="ts">
