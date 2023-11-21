@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./components/UI/bavbar.vue"],
+  content: ["./**/*.{html,css,vue}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        primary: "#3490dc",
+      },
+    },
   },
   plugins: [],
 };
