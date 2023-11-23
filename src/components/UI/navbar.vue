@@ -1,10 +1,18 @@
 <template>
-  <div class="navbar">
-    <div class="navbar-logo">KUSAKINS DEV</div>
-    <div class="navbar-btns">
-      <myButton class="btn-nav">HOME</myButton>
-      <myButton class="btn-nav">CONTACTS</myButton>
-      <myButton class="btn-nav">ABOUT ME</myButton>
+  <div
+    class="h-20 block mt-0my-5 mx-5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg"
+  >
+    <div class="text-2xl ml-3.5">
+      <router-link to="/">KUSAKINS DEV</router-link>
+    </div>
+    <div class="ml-3.5 mt-3">
+      <router-link to="/"><myButton class="mr-3">HOME</myButton></router-link>
+      <router-link to="/contacts"
+        ><myButton class="mr-3">CONTACTS</myButton></router-link
+      >
+      <router-link to="/about"
+        ><myButton class="mr-3">ABOUT ME</myButton></router-link
+      >
     </div>
   </div>
 </template>
@@ -19,24 +27,4 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.navbar {
-  background-color: rgb(5, 170, 188);
-  height: 100px;
-  align-content: center;
-}
-
-.navbar-logo {
-  padding: 20px;
-}
-
-.navbar-btns {
-  padding-top: 0;
-  padding-left: 20px;
-}
-
-.btn-nav {
-  height: 50px;
-  padding-right: 10px;
-}
-</style>
+<style scoped></style>
